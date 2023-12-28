@@ -21,3 +21,9 @@ online source
 ```console
 jjino/docker-service-rest-api
 ```
+
+_run commands_
+
+```bash
+docker run -d --name docker-service-rest-api -p 3000:3000 -v /var/run/docker.sock:/var/run/docker.sock jjino/docker-service-rest-api
+```
